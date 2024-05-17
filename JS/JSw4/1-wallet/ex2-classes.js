@@ -57,7 +57,8 @@ class Wallet {
   }
   setDailyAllowance(newAllowance){
     this.#dailyAllowance = newAllowance
-    console.log(`Daily allowance set to: ${newAllowance}`)
+    console.log(`Daily allowance set to: ${newAllowance}
+    `)
   }
 }
 
